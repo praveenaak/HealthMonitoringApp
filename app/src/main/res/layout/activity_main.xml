@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="376dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/symptoms"
+        android:layout_width="166dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="29dp"
+        android:text="Symptoms"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/measureHeartRate"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginBottom="342dp"
+        android:text="Measure Heart Rate"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/measureRespRate"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="253dp"
+        android:text="Measure Respiratory Signs"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textheartrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="318dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textresprate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="218dp"
+        android:textSize="18dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="177dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="43dp" />
+
+</RelativeLayout>
